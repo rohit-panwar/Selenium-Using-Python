@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19c52ae-f56e-4c1e-b4a3-7851b2bb9343" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Resources/Resource_SetUp_TearDown.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TC0007_SetUp_TearDown_TestCase_Level.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/output.xml" afterDir="false" />
@@ -27,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCases/TC0002_Keyword_Without_Arguments.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="33" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -36,13 +38,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCases/TC0006_User_Defined_Keyword_With_Return_Value.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="34">
+              <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="55" />
               <folding>
                 <element signature="e#0#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCases/TC0007_SetUp_TearDown_TestCase_Level.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Resource_SetUp_TearDown.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#41#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +122,8 @@
         <option value="$PROJECT_DIR$/Resources/Resource_With_Arguments.robot" />
         <option value="$PROJECT_DIR$/Resources/Resource_With_Return_Value.robot" />
         <option value="$PROJECT_DIR$/TestCases/TC0006_User_Defined_Keyword_With_Return_Value.robot" />
+        <option value="$PROJECT_DIR$/Resources/Resource_SetUp_TearDown.robot" />
+        <option value="$PROJECT_DIR$/TestCases/TC0007_SetUp_TearDown_TestCase_Level.robot" />
       </list>
     </option>
   </component>
@@ -211,13 +239,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/TC002_Keyword_Without_Arguments" />
-    <entry file="file://$PROJECT_DIR$/TestCases/TC0001_Open_Browser_All_Fields.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/TC0004_User_Defined_Keyword_Using_Existing_Keywords_With_Argument.robot">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -274,20 +295,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/TC0002_Keyword_Without_Arguments.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="33" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/TC0001_Open_Browser_All_Fields.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Resource_SetUp_TearDown.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#41#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/TC0006_User_Defined_Keyword_With_Return_Value.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="2" column="55" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="55" />
           <folding>
             <element signature="e#0#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/TC0007_SetUp_TearDown_TestCase_Level.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#97#0" expanded="true" />
           </folding>
         </state>
       </provider>

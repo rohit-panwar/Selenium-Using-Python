@@ -1,77 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.1 (Python 3.7.3 on win32)" generated="20190331 18:57:12.184" rpa="false">
-<suite id="s1" name="TC0006 User Defined Keyword With Return Value" source="C:\Users\Rohit\PycharmProjects\RobotFrameworkUIAutomation\TestCases\TC0006_User_Defined_Keyword_With_Return_Value.robot">
-<test id="s1-t1" name="Open Browser and perform basic operations">
-<kw name="Open Browser and Maximize" library="Resource_With_Return_Value">
-<arguments>
-<arg>https://www.facebook.com/</arg>
-<arg>Chrome</arg>
-</arguments>
-<assign>
-<var>${GetValue}</var>
-</assign>
+<robot generator="Robot 3.1.1 (Python 3.7.3 on win32)" generated="20190331 19:43:41.850" rpa="false">
+<suite id="s1" name="TC0007 SetUp TearDown TestCase Level" source="C:\Users\Rohit\PycharmProjects\RobotFrameworkUIAutomation\TestCases\TC0007_SetUp_TearDown_TestCase_Level.robot">
+<test id="s1-t1" name="Open Browser and Perform Operations">
+<kw name="Start Browser and Maximize window" library="Resource_SetUp_TearDown" type="setup">
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
 <arguments>
-<arg>${BrowserURL}</arg>
-<arg>${BrowserType}</arg>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20190331 18:57:12.421" level="INFO">Opening browser 'Chrome' to base url 'https://www.facebook.com/'.</msg>
-<status status="PASS" starttime="20190331 18:57:12.421" endtime="20190331 18:57:21.429"></status>
+<msg timestamp="20190331 19:43:42.102" level="INFO">Opening browser 'Chrome' to base url 'https://www.facebook.com/'.</msg>
+<status status="PASS" starttime="20190331 19:43:42.101" endtime="20190331 19:43:46.824"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190331 18:57:21.429" endtime="20190331 18:57:23.027"></status>
+<status status="PASS" starttime="20190331 19:43:46.824" endtime="20190331 19:43:48.443"></status>
 </kw>
+<status status="PASS" starttime="20190331 19:43:42.101" endtime="20190331 19:43:48.443"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:email</arg>
+<arg>RohitSinghPanwar</arg>
+</arguments>
+<msg timestamp="20190331 19:43:48.444" level="INFO">Typing text 'RohitSinghPanwar' into text field 'name:email'.</msg>
+<status status="PASS" starttime="20190331 19:43:48.444" endtime="20190331 19:43:48.694"></status>
+</kw>
+<kw name="Close Browser and print title in Log" library="Resource_SetUp_TearDown" type="teardown">
 <kw name="Get Title" library="SeleniumLibrary">
 <doc>Returns the title of current page.</doc>
 <assign>
 <var>${Title}</var>
 </assign>
-<msg timestamp="20190331 18:57:23.037" level="INFO">${Title} = Facebook – log in or sign up</msg>
-<status status="PASS" starttime="20190331 18:57:23.028" endtime="20190331 18:57:23.037"></status>
+<msg timestamp="20190331 19:43:48.704" level="INFO">${Title} = Facebook – log in or sign up</msg>
+<status status="PASS" starttime="20190331 19:43:48.696" endtime="20190331 19:43:48.704"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${Title}</arg>
 </arguments>
-<msg timestamp="20190331 18:57:23.038" level="INFO">Facebook – log in or sign up</msg>
-<status status="PASS" starttime="20190331 18:57:23.037" endtime="20190331 18:57:23.038"></status>
+<msg timestamp="20190331 19:43:48.705" level="INFO">Facebook – log in or sign up</msg>
+<status status="PASS" starttime="20190331 19:43:48.704" endtime="20190331 19:43:48.705"></status>
 </kw>
-<msg timestamp="20190331 18:57:23.039" level="INFO">${GetValue} = Facebook – log in or sign up</msg>
-<status status="PASS" starttime="20190331 18:57:12.420" endtime="20190331 18:57:23.039"></status>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20190331 19:43:48.705" endtime="20190331 19:43:51.144"></status>
+</kw>
+<status status="PASS" starttime="20190331 19:43:48.695" endtime="20190331 19:43:51.144"></status>
+</kw>
+<status status="PASS" starttime="20190331 19:43:42.100" endtime="20190331 19:43:51.145" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Selete Date as Birthdate">
+<kw name="Start Browser and Maximize window" library="Resource_SetUp_TearDown" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20190331 19:43:51.147" level="INFO">Opening browser 'Chrome' to base url 'https://www.facebook.com/'.</msg>
+<status status="PASS" starttime="20190331 19:43:51.147" endtime="20190331 19:43:57.150"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20190331 19:43:57.150" endtime="20190331 19:43:58.273"></status>
+</kw>
+<status status="PASS" starttime="20190331 19:43:51.146" endtime="20190331 19:43:58.274"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>id:month</arg>
+<arg>11</arg>
+</arguments>
+<msg timestamp="20190331 19:43:58.276" level="INFO">Selecting options from selection list 'id:month' by value 11.</msg>
+<status status="PASS" starttime="20190331 19:43:58.275" endtime="20190331 19:43:58.455"></status>
+</kw>
+<kw name="Close Browser and print title in Log" library="Resource_SetUp_TearDown" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of current page.</doc>
+<assign>
+<var>${Title}</var>
+</assign>
+<msg timestamp="20190331 19:43:58.475" level="INFO">${Title} = Facebook – log in or sign up</msg>
+<status status="PASS" starttime="20190331 19:43:58.456" endtime="20190331 19:43:58.475"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
-<arg>${GetValue}</arg>
+<arg>${Title}</arg>
 </arguments>
-<msg timestamp="20190331 18:57:23.040" level="INFO">Facebook – log in or sign up</msg>
-<status status="PASS" starttime="20190331 18:57:23.039" endtime="20190331 18:57:23.040"></status>
+<msg timestamp="20190331 19:43:58.476" level="INFO">Facebook – log in or sign up</msg>
+<status status="PASS" starttime="20190331 19:43:58.476" endtime="20190331 19:43:58.476"></status>
 </kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>name:email</arg>
-<arg>${GetValue}</arg>
-</arguments>
-<msg timestamp="20190331 18:57:23.040" level="INFO">Typing text 'Facebook – log in or sign up' into text field 'name:email'.</msg>
-<status status="PASS" starttime="20190331 18:57:23.040" endtime="20190331 18:57:24.263"></status>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20190331 19:43:58.477" endtime="20190331 19:44:00.788"></status>
 </kw>
-<status status="PASS" starttime="20190331 18:57:12.420" endtime="20190331 18:57:24.264" critical="yes"></status>
+<status status="PASS" starttime="20190331 19:43:58.456" endtime="20190331 19:44:00.788"></status>
+</kw>
+<status status="PASS" starttime="20190331 19:43:51.146" endtime="20190331 19:44:00.789" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20190331 18:57:12.186" endtime="20190331 18:57:24.266"></status>
+<status status="PASS" starttime="20190331 19:43:41.852" endtime="20190331 19:44:00.790"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="TC0006 User Defined Keyword With Return Value">TC0006 User Defined Keyword With Return Value</stat>
+<stat pass="2" fail="0" id="s1" name="TC0007 SetUp TearDown TestCase Level">TC0007 SetUp TearDown TestCase Level</stat>
 </suite>
 </statistics>
 <errors>
