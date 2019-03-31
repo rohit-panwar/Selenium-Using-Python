@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19c52ae-f56e-4c1e-b4a3-7851b2bb9343" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/Resource_SetUp_TearDown.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC0007_SetUp_TearDown_TestCase_Level.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TC0008_SetUp_TearDown_TestSuite_Level.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +45,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCases/TC0007_SetUp_TearDown_TestCase_Level.robot">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestCases/TC0008_SetUp_TearDown_TestSuite_Level.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#280#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,6 +131,7 @@
         <option value="$PROJECT_DIR$/TestCases/TC0006_User_Defined_Keyword_With_Return_Value.robot" />
         <option value="$PROJECT_DIR$/Resources/Resource_SetUp_TearDown.robot" />
         <option value="$PROJECT_DIR$/TestCases/TC0007_SetUp_TearDown_TestCase_Level.robot" />
+        <option value="$PROJECT_DIR$/TestCases/TC0008_SetUp_TearDown_TestSuite_Level.robot" />
       </list>
     </option>
   </component>
@@ -165,12 +173,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestCases" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Rohit\PycharmProjects\RobotFrameworkUIAutomation\Resources" />
       <recent name="C:\Users\Rohit\PycharmProjects\RobotFrameworkUIAutomation\TestCases" />
+      <recent name="C:\Users\Rohit\PycharmProjects\RobotFrameworkUIAutomation\Resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -196,6 +204,14 @@
       <option name="presentableId" value="Default" />
       <updated>1554024677831</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit form IDE">
+      <created>1554041753286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554041753286</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -221,6 +237,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit form IDE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit form IDE" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestCases/geckodriver.log">
@@ -336,6 +356,16 @@
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCases/TC0008_SetUp_TearDown_TestSuite_Level.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#280#0" expanded="true" />
           </folding>
         </state>
       </provider>

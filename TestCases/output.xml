@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.1 (Python 3.7.3 on win32)" generated="20190331 19:43:41.850" rpa="false">
-<suite id="s1" name="TC0007 SetUp TearDown TestCase Level" source="C:\Users\Rohit\PycharmProjects\RobotFrameworkUIAutomation\TestCases\TC0007_SetUp_TearDown_TestCase_Level.robot">
+<robot generator="Robot 3.1.1 (Python 3.7.3 on win32)" generated="20190331 19:48:55.419" rpa="false">
+<suite id="s1" name="TC0008 SetUp TearDown TestSuite Level" source="C:\Users\Rohit\PycharmProjects\RobotFrameworkUIAutomation\TestCases\TC0008_SetUp_TearDown_TestSuite_Level.robot">
 <test id="s1-t1" name="Open Browser and Perform Operations">
 <kw name="Start Browser and Maximize window" library="Resource_SetUp_TearDown" type="setup">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -9,14 +9,14 @@
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20190331 19:43:42.102" level="INFO">Opening browser 'Chrome' to base url 'https://www.facebook.com/'.</msg>
-<status status="PASS" starttime="20190331 19:43:42.101" endtime="20190331 19:43:46.824"></status>
+<msg timestamp="20190331 19:48:55.659" level="INFO">Opening browser 'Chrome' to base url 'https://www.facebook.com/'.</msg>
+<status status="PASS" starttime="20190331 19:48:55.659" endtime="20190331 19:49:00.670"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190331 19:43:46.824" endtime="20190331 19:43:48.443"></status>
+<status status="PASS" starttime="20190331 19:49:00.670" endtime="20190331 19:49:02.282"></status>
 </kw>
-<status status="PASS" starttime="20190331 19:43:42.101" endtime="20190331 19:43:48.443"></status>
+<status status="PASS" starttime="20190331 19:48:55.658" endtime="20190331 19:49:02.283"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -24,8 +24,8 @@
 <arg>name:email</arg>
 <arg>RohitSinghPanwar</arg>
 </arguments>
-<msg timestamp="20190331 19:43:48.444" level="INFO">Typing text 'RohitSinghPanwar' into text field 'name:email'.</msg>
-<status status="PASS" starttime="20190331 19:43:48.444" endtime="20190331 19:43:48.694"></status>
+<msg timestamp="20190331 19:49:02.284" level="INFO">Typing text 'RohitSinghPanwar' into text field 'name:email'.</msg>
+<status status="PASS" starttime="20190331 19:49:02.283" endtime="20190331 19:49:02.502"></status>
 </kw>
 <kw name="Close Browser and print title in Log" library="Resource_SetUp_TearDown" type="teardown">
 <kw name="Get Title" library="SeleniumLibrary">
@@ -33,24 +33,24 @@
 <assign>
 <var>${Title}</var>
 </assign>
-<msg timestamp="20190331 19:43:48.704" level="INFO">${Title} = Facebook – log in or sign up</msg>
-<status status="PASS" starttime="20190331 19:43:48.696" endtime="20190331 19:43:48.704"></status>
+<msg timestamp="20190331 19:49:02.509" level="INFO">${Title} = Facebook – log in or sign up</msg>
+<status status="PASS" starttime="20190331 19:49:02.503" endtime="20190331 19:49:02.509"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${Title}</arg>
 </arguments>
-<msg timestamp="20190331 19:43:48.705" level="INFO">Facebook – log in or sign up</msg>
-<status status="PASS" starttime="20190331 19:43:48.704" endtime="20190331 19:43:48.705"></status>
+<msg timestamp="20190331 19:49:02.510" level="INFO">Facebook – log in or sign up</msg>
+<status status="PASS" starttime="20190331 19:49:02.510" endtime="20190331 19:49:02.510"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190331 19:43:48.705" endtime="20190331 19:43:51.144"></status>
+<status status="PASS" starttime="20190331 19:49:02.510" endtime="20190331 19:49:04.785"></status>
 </kw>
-<status status="PASS" starttime="20190331 19:43:48.695" endtime="20190331 19:43:51.144"></status>
+<status status="PASS" starttime="20190331 19:49:02.503" endtime="20190331 19:49:04.785"></status>
 </kw>
-<status status="PASS" starttime="20190331 19:43:42.100" endtime="20190331 19:43:51.145" critical="yes"></status>
+<status status="PASS" starttime="20190331 19:48:55.657" endtime="20190331 19:49:04.786" critical="yes"></status>
 </test>
 <test id="s1-t2" name="Selete Date as Birthdate">
 <kw name="Start Browser and Maximize window" library="Resource_SetUp_TearDown" type="setup">
@@ -60,14 +60,14 @@
 <arg>${URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20190331 19:43:51.147" level="INFO">Opening browser 'Chrome' to base url 'https://www.facebook.com/'.</msg>
-<status status="PASS" starttime="20190331 19:43:51.147" endtime="20190331 19:43:57.150"></status>
+<msg timestamp="20190331 19:49:04.788" level="INFO">Opening browser 'Chrome' to base url 'https://www.facebook.com/'.</msg>
+<status status="PASS" starttime="20190331 19:49:04.787" endtime="20190331 19:49:11.793"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190331 19:43:57.150" endtime="20190331 19:43:58.273"></status>
+<status status="PASS" starttime="20190331 19:49:11.793" endtime="20190331 19:49:12.933"></status>
 </kw>
-<status status="PASS" starttime="20190331 19:43:51.146" endtime="20190331 19:43:58.274"></status>
+<status status="PASS" starttime="20190331 19:49:04.787" endtime="20190331 19:49:12.933"></status>
 </kw>
 <kw name="Select From List By Value" library="SeleniumLibrary">
 <doc>Selects options from selection list ``locator`` by ``values``.</doc>
@@ -75,8 +75,8 @@
 <arg>id:month</arg>
 <arg>11</arg>
 </arguments>
-<msg timestamp="20190331 19:43:58.276" level="INFO">Selecting options from selection list 'id:month' by value 11.</msg>
-<status status="PASS" starttime="20190331 19:43:58.275" endtime="20190331 19:43:58.455"></status>
+<msg timestamp="20190331 19:49:12.934" level="INFO">Selecting options from selection list 'id:month' by value 11.</msg>
+<status status="PASS" starttime="20190331 19:49:12.934" endtime="20190331 19:49:13.094"></status>
 </kw>
 <kw name="Close Browser and print title in Log" library="Resource_SetUp_TearDown" type="teardown">
 <kw name="Get Title" library="SeleniumLibrary">
@@ -84,26 +84,27 @@
 <assign>
 <var>${Title}</var>
 </assign>
-<msg timestamp="20190331 19:43:58.475" level="INFO">${Title} = Facebook – log in or sign up</msg>
-<status status="PASS" starttime="20190331 19:43:58.456" endtime="20190331 19:43:58.475"></status>
+<msg timestamp="20190331 19:49:13.114" level="INFO">${Title} = Facebook – log in or sign up</msg>
+<status status="PASS" starttime="20190331 19:49:13.095" endtime="20190331 19:49:13.114"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>${Title}</arg>
 </arguments>
-<msg timestamp="20190331 19:43:58.476" level="INFO">Facebook – log in or sign up</msg>
-<status status="PASS" starttime="20190331 19:43:58.476" endtime="20190331 19:43:58.476"></status>
+<msg timestamp="20190331 19:49:13.114" level="INFO">Facebook – log in or sign up</msg>
+<status status="PASS" starttime="20190331 19:49:13.114" endtime="20190331 19:49:13.115"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190331 19:43:58.477" endtime="20190331 19:44:00.788"></status>
+<status status="PASS" starttime="20190331 19:49:13.115" endtime="20190331 19:49:15.436"></status>
 </kw>
-<status status="PASS" starttime="20190331 19:43:58.456" endtime="20190331 19:44:00.788"></status>
+<status status="PASS" starttime="20190331 19:49:13.095" endtime="20190331 19:49:15.436"></status>
 </kw>
-<status status="PASS" starttime="20190331 19:43:51.146" endtime="20190331 19:44:00.789" critical="yes"></status>
+<status status="PASS" starttime="20190331 19:49:04.787" endtime="20190331 19:49:15.437" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20190331 19:43:41.852" endtime="20190331 19:44:00.790"></status>
+<doc>This is a demonstration of SetUp and TearDown method at Test Suite Level</doc>
+<status status="PASS" starttime="20190331 19:48:55.421" endtime="20190331 19:49:15.438"></status>
 </suite>
 <statistics>
 <total>
@@ -113,7 +114,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="2" fail="0" id="s1" name="TC0007 SetUp TearDown TestCase Level">TC0007 SetUp TearDown TestCase Level</stat>
+<stat pass="2" fail="0" id="s1" name="TC0008 SetUp TearDown TestSuite Level">TC0008 SetUp TearDown TestSuite Level</stat>
 </suite>
 </statistics>
 <errors>
